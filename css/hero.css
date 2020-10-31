@@ -1,0 +1,58 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 0; */
+    margin: 0;
+}
+header{
+    background-color: #28004d;
+    padding: 40px;
+    text-align: center;
+}
+h1{
+    font-size: 90px;
+    color: white;
+}
+
+header img {
+/* image size is 225 x 225 px and half of it is 112.5 to make the border circular*/
+    border-radius: 175px;
+    width: 300px;
+    border: 24px solid #FFD119;
+
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+img.jack_moon{
+    max-width: 100%;
+}
+
+p.caption{
+    font-size: 16px;
+    color: lightgrey;
+    font-style: italic;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: #28004d;
+    text-decoration: none;
+}
+
+footer{
+    padding: 40px 20px;
+    background-color: #e6e6e6;
+}
+/* <header>
+<img src="img/jack_face.jpg" alt="huhuhaha" >
+<h1>Jack Skellington</h1>
+</header> */
