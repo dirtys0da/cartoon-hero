@@ -2,16 +2,29 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
     /* padding: 0; */
     margin: 0;
+    font-size: 20px;
+    text-align: center;
+/* centers all text */
 }
 header{
     background-color: #28004d;
+    background-image: url('../img/jack_whiteface_invert.jpg');
+    background-repeat: repeat;
+    height: 240px;
+
+/* added background picture repeating */
     padding: 40px;
     text-align: center;
-
+    margin-bottom: 220px;
+    /* margin-bottom: and height set to 240 to balance; */
 }
 h1{
     font-size: 90px;
     color: white;
+    text-shadow: 0 4px 20px black;
+    margin: 0;
+/* added shadow and magrin 0 so there will be no spaces when adding shadow */
+    text-transform: uppercase;
 }
 
 header img {
@@ -19,13 +32,23 @@ header img {
     border-radius: 175px;
     width: 300px;
     border: 24px solid #FFD119;
+    box-shadow: 0 10px 20px black;
+/* added shadow in circle the x, y, blur amount, color*/
 
 }
-
+.wrapper{
+    background-color: #5c5c5c;
+}
 .content{
     max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
+    color: #ffffff;
+}
+
+h2{
+    color: #FFD119;
+    /* font-size: 40px; */
 }
 
 img.jack_moon{
@@ -37,22 +60,30 @@ p.caption{
     color: lightgrey;
     font-style: italic;
 }
+ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+}
 
 ul{
     list-style: none;
     padding: 0;
     margin: 0;
+
 }
 
 a{
-    color: #28004d;
+    color: #bb8ff5;
     text-decoration: none;
 }
 
 footer{
     margin-top: 20px;
     padding: 40px 20px;
-    background-color: #e6e6e6;
+    background-color: #313131;
+    color: #ffffff;
 }
 
 footer ul{
