@@ -49,9 +49,25 @@ a{
 }
 
 footer{
+    margin-top: 20px;
     padding: 40px 20px;
     background-color: #e6e6e6;
 }
+
+footer ul{
+    text-align: center;
+}
+/* centers the whole ul */
+
+footer ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+/* inline block allows setteing spaces between lists */
+
+
+
+
 /* <header>
 <img src="img/jack_face.jpg" alt="huhuhaha" >
 <h1>Jack Skellington</h1>
